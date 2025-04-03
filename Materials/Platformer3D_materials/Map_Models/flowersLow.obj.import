@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmudogho0syvg"
+path="res://.godot/imported/flowersLow.obj-0c66cb277d665ecdcc4561f12f3a558b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flowersLow.obj-0c66cb277d665ecdcc4561f12f3a558b.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/flowersLow.obj"
+dest_files=["res://.godot/imported/flowersLow.obj-0c66cb277d665ecdcc4561f12f3a558b.mesh", "res://.godot/imported/flowersLow.obj-0c66cb277d665ecdcc4561f12f3a558b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwy5sohnp0ka8"
+path="res://.godot/imported/blockSnowLevel.obj-432ef1ea6b1af0f268d2a26e0f1d7760.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowLevel.obj-432ef1ea6b1af0f268d2a26e0f1d7760.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/blockSnowLevel.obj"
+dest_files=["res://.godot/imported/blockSnowLevel.obj-432ef1ea6b1af0f268d2a26e0f1d7760.mesh", "res://.godot/imported/blockSnowLevel.obj-432ef1ea6b1af0f268d2a26e0f1d7760.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

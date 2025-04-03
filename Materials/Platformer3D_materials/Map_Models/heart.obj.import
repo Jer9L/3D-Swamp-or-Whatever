@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djtxi0fafkeun"
+path="res://.godot/imported/heart.obj-484211323f2124408550e70e10eb8c0b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/heart.obj-484211323f2124408550e70e10eb8c0b.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/heart.obj"
+dest_files=["res://.godot/imported/heart.obj-484211323f2124408550e70e10eb8c0b.mesh", "res://.godot/imported/heart.obj-484211323f2124408550e70e10eb8c0b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

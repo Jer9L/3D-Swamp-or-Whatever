@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dlsfui8fpcjpr"
+path="res://.godot/imported/doorLargeClosed.obj-8254add8478178479b572077df0c490d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/doorLargeClosed.obj-8254add8478178479b572077df0c490d.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/doorLargeClosed.obj"
+dest_files=["res://.godot/imported/doorLargeClosed.obj-8254add8478178479b572077df0c490d.mesh", "res://.godot/imported/doorLargeClosed.obj-8254add8478178479b572077df0c490d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

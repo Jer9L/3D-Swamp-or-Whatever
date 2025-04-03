@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bi6gcjk3av167"
+path="res://.godot/imported/blockQuarter.obj-f9701b3d4cb528d5e7f100e983d2f001.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockQuarter.obj-f9701b3d4cb528d5e7f100e983d2f001.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/blockQuarter.obj"
+dest_files=["res://.godot/imported/blockQuarter.obj-f9701b3d4cb528d5e7f100e983d2f001.mesh", "res://.godot/imported/blockQuarter.obj-f9701b3d4cb528d5e7f100e983d2f001.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b3u0rc68ct3us"
+path="res://.godot/imported/armchair.obj-800179f7b4eb17fe4e297e69ff1d66e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/armchair.obj-800179f7b4eb17fe4e297e69ff1d66e3.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/armchair.obj"
+dest_files=["res://.godot/imported/armchair.obj-800179f7b4eb17fe4e297e69ff1d66e3.mesh", "res://.godot/imported/armchair.obj-800179f7b4eb17fe4e297e69ff1d66e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://calm3ylj22jq0"
+path="res://.godot/imported/blockRoundedLow.obj-56972b7fc2af834a61cabadac57d433a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockRoundedLow.obj-56972b7fc2af834a61cabadac57d433a.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/blockRoundedLow.obj"
+dest_files=["res://.godot/imported/blockRoundedLow.obj-56972b7fc2af834a61cabadac57d433a.mesh", "res://.godot/imported/blockRoundedLow.obj-56972b7fc2af834a61cabadac57d433a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

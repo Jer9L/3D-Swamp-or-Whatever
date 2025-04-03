@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cg7ld56ribk1m"
+path="res://.godot/imported/skeleton.obj-84a80cd8dcb72e7b084e913d9131e257.mesh"
+
+[deps]
+
+files=["res://.godot/imported/skeleton.obj-84a80cd8dcb72e7b084e913d9131e257.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/skeleton.obj"
+dest_files=["res://.godot/imported/skeleton.obj-84a80cd8dcb72e7b084e913d9131e257.mesh", "res://.godot/imported/skeleton.obj-84a80cd8dcb72e7b084e913d9131e257.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

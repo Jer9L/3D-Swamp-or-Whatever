@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4p8c5vt1njf3"
+path="res://.godot/imported/book_green.obj-ba3053db388b720d70b96dd2d5a95137.mesh"
+
+[deps]
+
+files=["res://.godot/imported/book_green.obj-ba3053db388b720d70b96dd2d5a95137.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/book_green.obj"
+dest_files=["res://.godot/imported/book_green.obj-ba3053db388b720d70b96dd2d5a95137.mesh", "res://.godot/imported/book_green.obj-ba3053db388b720d70b96dd2d5a95137.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

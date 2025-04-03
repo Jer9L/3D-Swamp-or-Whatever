@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkahvw16k7c27"
+path="res://.godot/imported/crateItemStrong.obj-dd96a9145439309fdecdfbf2f399f899.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crateItemStrong.obj-dd96a9145439309fdecdfbf2f399f899.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/crateItemStrong.obj"
+dest_files=["res://.godot/imported/crateItemStrong.obj-dd96a9145439309fdecdfbf2f399f899.mesh", "res://.godot/imported/crateItemStrong.obj-dd96a9145439309fdecdfbf2f399f899.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

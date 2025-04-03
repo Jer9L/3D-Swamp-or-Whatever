@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bv1gleyjnujks"
+path="res://.godot/imported/roof_flat.obj-a084770f644dde669e0f032ac9a4eb77.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roof_flat.obj-a084770f644dde669e0f032ac9a4eb77.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/roof_flat.obj"
+dest_files=["res://.godot/imported/roof_flat.obj-a084770f644dde669e0f032ac9a4eb77.mesh", "res://.godot/imported/roof_flat.obj-a084770f644dde669e0f032ac9a4eb77.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

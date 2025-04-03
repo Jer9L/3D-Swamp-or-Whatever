@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cp5k3xcm8gwn8"
+path="res://.godot/imported/bench.obj-29d535c884210f14fd743999c21bfd8f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bench.obj-29d535c884210f14fd743999c21bfd8f.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/bench.obj"
+dest_files=["res://.godot/imported/bench.obj-29d535c884210f14fd743999c21bfd8f.mesh", "res://.godot/imported/bench.obj-29d535c884210f14fd743999c21bfd8f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

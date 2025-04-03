@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bj1751vfp4fgo"
+path="res://.godot/imported/coinSilver.obj-5e2ad7c8bbdeab13266dbc7331c85d87.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coinSilver.obj-5e2ad7c8bbdeab13266dbc7331c85d87.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/coinSilver.obj"
+dest_files=["res://.godot/imported/coinSilver.obj-5e2ad7c8bbdeab13266dbc7331c85d87.mesh", "res://.godot/imported/coinSilver.obj-5e2ad7c8bbdeab13266dbc7331c85d87.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

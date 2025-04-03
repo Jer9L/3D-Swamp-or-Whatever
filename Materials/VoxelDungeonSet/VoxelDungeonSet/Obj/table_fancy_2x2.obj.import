@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0jtfwsxn0ux2"
+path="res://.godot/imported/table_fancy_2x2.obj-4691ac257c2a4b4aed2b6b7f75de96bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/table_fancy_2x2.obj-4691ac257c2a4b4aed2b6b7f75de96bb.mesh"]
+
+source_file="res://Materials/VoxelDungeonSet/VoxelDungeonSet/Obj/table_fancy_2x2.obj"
+dest_files=["res://.godot/imported/table_fancy_2x2.obj-4691ac257c2a4b4aed2b6b7f75de96bb.mesh", "res://.godot/imported/table_fancy_2x2.obj-4691ac257c2a4b4aed2b6b7f75de96bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clsdfkjt4nnd1"
+path="res://.godot/imported/fenceLow.obj-850898b7cbbe2ad3205053b9d5ef033c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fenceLow.obj-850898b7cbbe2ad3205053b9d5ef033c.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/fenceLow.obj"
+dest_files=["res://.godot/imported/fenceLow.obj-850898b7cbbe2ad3205053b9d5ef033c.mesh", "res://.godot/imported/fenceLow.obj-850898b7cbbe2ad3205053b9d5ef033c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

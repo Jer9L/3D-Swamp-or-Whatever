@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cotusjvinrr7q"
+path="res://.godot/imported/blockSnowHalf.obj-895d27275321176dc5c764e3e3fd01be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowHalf.obj-895d27275321176dc5c764e3e3fd01be.mesh"]
+
+source_file="res://Materials/Platformer3D_materials/Map_Models/blockSnowHalf.obj"
+dest_files=["res://.godot/imported/blockSnowHalf.obj-895d27275321176dc5c764e3e3fd01be.mesh", "res://.godot/imported/blockSnowHalf.obj-895d27275321176dc5c764e3e3fd01be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
