@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfoco6v6had7s"
+path="res://.godot/imported/tile_flat.obj-3c59acb6412be14d395b0957eae6e51a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_flat.obj-3c59acb6412be14d395b0957eae6e51a.mesh"]
+
+source_file="res://VoxelDungeonSet/VoxelDungeonSet/Obj/tile_flat.obj"
+dest_files=["res://.godot/imported/tile_flat.obj-3c59acb6412be14d395b0957eae6e51a.mesh", "res://.godot/imported/tile_flat.obj-3c59acb6412be14d395b0957eae6e51a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

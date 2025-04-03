@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dibkcephotaly"
+path="res://.godot/imported/hammer.obj-438d573d92ab1d7b0652d33b579fa17b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hammer.obj-438d573d92ab1d7b0652d33b579fa17b.mesh"]
+
+source_file="res://VoxelDungeonSet/VoxelDungeonSet/Obj/hammer.obj"
+dest_files=["res://.godot/imported/hammer.obj-438d573d92ab1d7b0652d33b579fa17b.mesh", "res://.godot/imported/hammer.obj-438d573d92ab1d7b0652d33b579fa17b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

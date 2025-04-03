@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bltrxv1ope0l2"
+path="res://.godot/imported/saw.obj-9ab2870e91b377977d5521b2092747c8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/saw.obj-9ab2870e91b377977d5521b2092747c8.mesh"]
+
+source_file="res://Platformer3D_materials/Map_Models/saw.obj"
+dest_files=["res://.godot/imported/saw.obj-9ab2870e91b377977d5521b2092747c8.mesh", "res://.godot/imported/saw.obj-9ab2870e91b377977d5521b2092747c8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

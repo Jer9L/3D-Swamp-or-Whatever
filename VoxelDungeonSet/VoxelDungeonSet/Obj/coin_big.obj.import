@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cf2hgxmyucj1n"
+path="res://.godot/imported/coin_big.obj-f0680e863b7a64615e3f6602381ac9ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coin_big.obj-f0680e863b7a64615e3f6602381ac9ad.mesh"]
+
+source_file="res://VoxelDungeonSet/VoxelDungeonSet/Obj/coin_big.obj"
+dest_files=["res://.godot/imported/coin_big.obj-f0680e863b7a64615e3f6602381ac9ad.mesh", "res://.godot/imported/coin_big.obj-f0680e863b7a64615e3f6602381ac9ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
