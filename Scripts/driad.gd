@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-const SPEED = 1.5 #скорость 
+const SPEED = 1.0 #скорость 
 const RUN_SPEED = 2.5 #скорость бега
 const JUMP_VELOCITY = 3 #сила прыжка
 
@@ -49,9 +49,9 @@ func Low_Budget_Animation(): #низкобюджетные анимации
 	if not is_on_floor():
 		$AuxScene/AnimationPlayer.play("Jump0")
 	elif velocity.x != 0 or velocity.z != 0:
-		$AuxScene/AnimationPlayer.play("SlowRun1")
+		$AuxScene/AnimationPlayer.play("Walking0")
 	else:
-		$AuxScene/AnimationPlayer.play("HappyIdle0")
+		$AuxScene/AnimationPlayer.play("StandingIdle0")
 
 func _input(event): #действия чекаем, ага
 	if event is InputEventMouseMotion and menu.visible == false: #если мы мышь тыкаем палкой
