@@ -1,10 +1,9 @@
-[gd_scene load_steps=18 format=3 uid="uid://cv2asagxmmqw2"]
+[gd_scene load_steps=17 format=3 uid="uid://cv2asagxmmqw2"]
 
 [ext_resource type="Script" path="res://Scripts/game_scene.gd" id="1_nqul6"]
 [ext_resource type="MeshLibrary" uid="uid://vt4rbtydcvit" path="res://Materials/Tiles.tres" id="2_fn3wg"]
 [ext_resource type="Texture2D" uid="uid://d1ed6prsv4n36" path="res://Materials/Twemoji12_1f4a7.svg.png" id="3_fd4fl"]
-[ext_resource type="AudioStream" uid="uid://cbwrx76pi78sv" path="res://Sounds/audio.mp3" id="4_uppwc"]
-[ext_resource type="PackedScene" uid="uid://cxa28x3rw4k6o" path="res://Scenes/driad.tscn" id="5_c1fmg"]
+[ext_resource type="PackedScene" uid="uid://ddyo5bq3l1tba" path="res://Scenes/mage.tscn" id="5_5brcl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_mvrh1"]
 sky_top_color = Color(0.739719, 0.314582, 0.240658, 1)
@@ -211,16 +210,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.208078, 5)
 mesh = SubResource("BoxMesh_4y743")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Map"]
+visible = false
 material_override = SubResource("StandardMaterial3D_h0ptn")
 amount = 100
 fixed_fps = 60
 process_material = SubResource("ParticleProcessMaterial_6fwhv")
 draw_pass_1 = SubResource("QuadMesh_qf0mj")
-
-[node name="Rain_SFX" type="AudioStreamPlayer" parent="Map"]
-stream = ExtResource("4_uppwc")
-autoplay = true
-mix_target = 1
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map"]
 transform = Transform3D(1, 0, 0, 0, 0.866026, 0.5, 0, -0.5, 0.866026, 0, 4, 0)
@@ -230,10 +225,8 @@ light_indirect_energy = 3.0
 shadow_enabled = true
 shadow_blur = 0.116
 
-[node name="Driad" parent="." instance=ExtResource("5_c1fmg")]
-transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, -0.591618, 1.93949, 0)
-
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Game_Ui" type="Control" parent="CanvasLayer"]
 layout_mode = 3
@@ -244,6 +237,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Game_menu" type="Control" parent="CanvasLayer"]
+visible = false
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -268,5 +262,8 @@ offset_right = 708.0
 offset_bottom = 578.0
 theme_override_font_sizes/font_size = 72
 text = "EXIT"
+
+[node name="Mage" parent="." instance=ExtResource("5_5brcl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1.51415, -1)
 
 [connection signal="pressed" from="CanvasLayer/Game_menu/Exit" to="." method="_on_exit_pressed"]
