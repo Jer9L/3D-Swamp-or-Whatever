@@ -8,6 +8,7 @@ extends CharacterBody3D
 @export var acceleration = 4.0
 @export var rotation_speed = 15.0
 @export var jump_impulse = 5.0
+@export var stopping_speed := 1.3
 
 var camera_input_direction = Vector2.ZERO
 var last_movement_direction = Vector3.BACK
@@ -52,6 +53,9 @@ func _physics_process(delta):
 	 move_speed, acceleration * delta)
 	velocity.y = y_velocity + gravity * delta
 	
+	if is_equal_approx(move_direction.length(), 0.0) and velocity.length() < stopping_speed:
+		velocity = Vector3.ZERO
+	
 	var is_starting_jump = Input.is_action_just_pressed("Jump") and is_on_floor()
 	if is_starting_jump:
 		velocity.y += jump_impulse
@@ -63,6 +67,7 @@ func _physics_process(delta):
 	var target_angle = Vector3.BACK.signed_angle_to(last_movement_direction,Vector3.UP)
 	mage.global_rotation.y = lerp_angle(mage.rotation.y, target_angle,
 	 rotation_speed * delta)
+	
 	
 	if is_starting_jump:
 		mage.jump()
