@@ -66,8 +66,6 @@ func _physics_process(delta):
 	
 	if is_starting_jump:
 		mage.jump()
-	#elif not is_on_floor() and velocity.y < 0:
-		#mage.fall()
 	elif is_on_floor():
 		var ground_speed = velocity.length()
 		if ground_speed > 0.0:
