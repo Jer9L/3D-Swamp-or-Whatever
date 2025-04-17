@@ -143,7 +143,7 @@ noise = SubResource("FastNoiseLite_jei45")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_e31ma"]
 render_priority = 0
 shader = SubResource("Shader_6klmr")
-shader_parameter/albedo = Color(0.027451, 0.301961, 0.529412, 0.643137)
+shader_parameter/albedo = Color(0.027451, 0.301961, 0.529412, 0.835294)
 shader_parameter/point_size = 1.0
 shader_parameter/roughness = 0.0
 shader_parameter/metallic_texture_channel = null
@@ -223,7 +223,6 @@ light_indirect_energy = 3.0
 shadow_enabled = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-visible = false
 
 [node name="Game_Ui" type="Control" parent="CanvasLayer"]
 layout_mode = 3
