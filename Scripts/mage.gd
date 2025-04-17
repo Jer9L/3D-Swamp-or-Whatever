@@ -5,10 +5,10 @@ extends CharacterBody3D
 
 @export_group("Movement")
 @export var move_speed = 3.0
-@export var acceleration = 4.0
+@export var acceleration = 7.0
 @export var rotation_speed = 15.0
 @export var jump_impulse = 5.0
-@export var stopping_speed := 1.3
+@export var stopping_speed := 1.4
 
 var camera_input_direction = Vector2.ZERO
 var last_movement_direction = Vector3.BACK
@@ -33,12 +33,13 @@ func _unhandled_input(event):
 		camera_input_direction = event.screen_relative * mouse_sensitivity
 
 func _physics_process(delta):
+#Вращение камеры
 	camera.rotation.x += camera_input_direction.y * delta
 	camera.rotation.x = clamp(camera.rotation.x, -PI / 6.0, PI / 3.0)
 	camera.rotation.y -= camera_input_direction.x * delta
 	
 	camera_input_direction = Vector2.ZERO
-	
+#Движение
 	var direction = Input.get_vector("Left","Right","Up","Down")
 	var forward = cam.global_basis.z
 	var right = cam.global_basis.x
@@ -52,23 +53,22 @@ func _physics_process(delta):
 	velocity = velocity.move_toward(move_direction *
 	 move_speed, acceleration * delta)
 	velocity.y = y_velocity + gravity * delta
-	
+#Торможениен
 	if is_equal_approx(move_direction.length(), 0.0) and velocity.length() < stopping_speed:
 		velocity = Vector3.ZERO
-	
+#Прыжки
 	var is_starting_jump = Input.is_action_just_pressed("Jump") and is_on_floor()
 	if is_starting_jump:
 		velocity.y += jump_impulse
 	
 	move_and_slide()
-	
+#Вращение персонажа
 	if move_direction.length() > 0.2:
 		last_movement_direction = move_direction
 	var target_angle = Vector3.BACK.signed_angle_to(last_movement_direction,Vector3.UP)
 	mage.global_rotation.y = lerp_angle(mage.rotation.y, target_angle,
 	 rotation_speed * delta)
-	
-	
+# Анимации
 	if is_starting_jump:
 		mage.jump()
 	elif is_on_floor():

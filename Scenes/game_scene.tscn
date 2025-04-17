@@ -210,7 +210,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.208078, 5)
 mesh = SubResource("BoxMesh_4y743")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="Map"]
-visible = false
+layers = 2
 material_override = SubResource("StandardMaterial3D_h0ptn")
 amount = 100
 fixed_fps = 60
@@ -219,11 +219,8 @@ draw_pass_1 = SubResource("QuadMesh_qf0mj")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map"]
 transform = Transform3D(1, 0, 0, 0, 0.866026, 0.5, 0, -0.5, 0.866026, 0, 4, 0)
-light_color = Color(0.858871, 0.701403, 0.652127, 1)
-light_energy = 2.0
 light_indirect_energy = 3.0
 shadow_enabled = true
-shadow_blur = 0.116
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 visible = false
